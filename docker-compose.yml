@@ -1,0 +1,74 @@
+version: '2'
+
+services:
+
+  web:
+    image: web
+    build: ./nginx
+    restart: always
+    links:
+      - api
+      - server
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - archivedata:/srv/videos
+
+  api:
+    image: api
+    build: ./mvideo-api
+    restart: always
+    links:
+      - db
+    ports:
+      - "8060:8060"
+    volumes:
+      - archivedata:/srv/videos
+    env_file: .env
+
+  server:
+    image: server
+    build: ./mvideo-server
+    restart: always
+    links:
+      - api
+    ports:
+      - "1935:1935"
+      - "8080:80"
+    volumes:
+      - streamdata:/data
+      - archivedata:/srv/videos
+    env_file: .env
+
+  db:
+    image: mdillon/postgis
+    restart: always
+    volumes:
+      - psqldata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    env_file: .env
+
+  docs:
+    image: docs
+    build: ./mvideo-docs
+    restart: always
+    ports:
+      - "4000:4000"
+
+#  ui:
+#    image: mvideo_ui
+#    restart: always
+
+volumes:
+
+  psqldata:
+    driver: local
+
+  streamdata:
+    driver: local
+
+  archivedata:
+    driver: local
+

@@ -1,0 +1,15 @@
+###################################### Test unstable wifi ######################################
+    == Start app with wifi available
+        == unplug wifi cable
+            -> wait for app to stop recording, re-plug wifi cable
+            -> before app stops recording, re-plug wifi cable
+        == turn off wifi
+            -> wait for app to stop recording, turn on wifi
+            -> before app stops recording, turn on wifi
+        -> pause and resume app randomly
+    
+    -> Start app with wifi turned off, then turn on wifi
+    -> Start app with wifi turned on but unplugged, then plug in the cable
+    
+    
+        

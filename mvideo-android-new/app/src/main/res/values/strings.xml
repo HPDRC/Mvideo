@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mvideo</string>
+
+    <string name="g_undefined">Undefined</string>
+    <string name="g_delete">Delete</string>
+    <string name="g_exit">Exit</string>
+
+    <string name="main_manage_btn">Manage</string>
+    <string name="main_enter_password">Enter password</string>
+    <string name="main_restart_after_change">Please restart the app after any change!</string>
+</resources>

@@ -1,0 +1,2000 @@
+  143  exit  
+  144  exit
+  145  gpsmon
+  146  cat /etc/motion/motion.conf | more
+  147  sudo cat /etc/motion/motion.conf | more
+  148  date
+  149  sudo nano /etc/rc.conf
+  150  rm /etc/rc.conf 
+  151  sudo rm /etc/rc.conf 
+  152  raspi-config 
+  153  sudp raspi-config 
+  154  sudo raspi-config 
+  155  sudo /nano/ntp.conf
+  156  sudo nano /etc/ntp.conf
+  157  timedatectl
+  158  timedatectl --help
+  159  timedatectl set-ntp true
+  160  timedatectl 
+  161  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  162  gpsmon
+  163  exit
+  164  history | grep motion
+  165  sudo nano /etc/motion/motion.conf
+  166  sudo service motion restart
+  167  ls
+  168  exit
+  169  gpsmon
+  170  history
+  171  ls
+  172  cat rawgps.txt 
+  173  htop
+  174  top
+  175  gpsmon
+  176  gpsmon
+  177  sudo service motion status
+  178  history | grep motion
+  179  sudo nano /etc/motion/motion.conf
+  180  gpsd
+  181  gpspipe -r -o ~/rawgps.txt
+  182  sudo service motion status
+  183  sudo service motion restart
+  184  ifconfig -a
+  185  ifconfig
+  186  ifconfig wlan0
+  187  ping eris
+  188  ssh kamnrune@eris
+  189  ifconfig wlan0
+  190  ifconfig -a
+  191  gpsmon
+  192  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  193  gpsmon
+  194  sudo apt-get install pptp-linux
+  195  ipconfig /a
+  196  ipconfig -a
+  197  ifconfig -a
+  198  sudo apt-get install pptp-linux
+  199  ps -A
+  200  kill 8913
+  201  sudo kill 8913
+  202  ls
+  203  sudo apt-get install pptp-l;inux
+  204  sudo apt-get install pptp-linux
+  205  reboot
+  206  sudo apt-get install pptp-linux
+  207  reboot
+  208  sudo apt-get update
+  209  sudo apt-get upgrade 
+  210  sudo apt-get install -y pptp-linux 
+  211  pptpsetup --help
+  212  sudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --start
+  213  sudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --encrypt --start
+  214  ifconfig -a
+  215  ssh mullerk@wolf
+  216  ssh mullerk@wolf.cs.fiu.edu
+  217  ping godel
+  218  ping horizon.cs.fiu.edu
+  219  ping 131.94.130.228
+  220  ping 131.94.130.164
+  221  sudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --encrypt --stop
+  222  sudo pptpsetup --help
+  223  ps -A
+  224  sudo pptpsetup --stop
+  225  pptpsetup --help
+  226  sudo pptpsetup --VPN.cs.fiu.edu --stop
+  227  pptpd stop
+  228  sudo service pppd stop
+  229  reboot
+  230  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  231  gpsmon
+  232  ifconfig -a
+  233  sudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --encrypt --stop
+  234  sudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --encrypt --start
+  235  ifconfig -a
+  236  history | grep ntp
+  237  NTPServer="ntps2-1.cs.fiu.edu" /usr/bin/systemsetup -setnetworktimeserver "$NTPServer" /usr/bin/systemsetup -setusingnetworktime on 
+  238  timedatectl set-ntp true
+  239  sudo ntpd -q -g
+  240  raspi-config
+  241  sudo raspi-config
+  242  timedatectl set-ntp true
+  243  sudo reboot
+  244  exit
+  245  ls
+  246  ffmpeg -f alsa -i default -f 4v4l2 -i /dev/video0 -s 320x240 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/pi_cats1_test"
+  247  ffmpeg  -i default -f 4v4l2 -i /dev/video0 -s 320x240 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/pi_cats1_test"
+  248  ffmpeg -f 4v4l2 -i /dev/video0 -s 320x240 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/pi_cats1_test"
+  249  ffmpeg -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/pi_cats1_test"
+  250  ffmpeg -f v4l2 -i /dev/video0 -s 800x600 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/pi_cats1_test"
+  251  uuid
+  252  ffmpeg -f v4l2 -i /dev/video0 -s 800x600 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/5dfb6986-1487-11e7-93ae-92361f002671_cats1_test"
+  253  ffmpeg -f v4l2 -i /dev/video0 -s 800x600 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/5dfb6986-1487-11e7-93ae-92361f002671__picats1-test__"
+  254  ffmpeg -f v4l2 -i /dev/video0 -s 640x480 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/5dfb6986-1487-11e7-93ae-92361f002671__picats1-test__"
+  255  ffmpeg -f v4l2 -i /dev/video0 -s 640x480 -ar 11025 -f flv -r 30.0 "rtmp://131.94.133.214:1935/live/5dfb6986-1487-11e7-93ae-92361f002672__picats1-test__"
+  256  ls
+  257  ffmpeg 
+  258  ffmpeg -y -f vfwcap -i list
+  259  ffmpeg -y -f  -i list
+  260  ffmpeg -y -f -dshow  -i list
+  261  ffmpeg -y -f -dshow list
+  262  ffmpeg --version
+  263  v4l2-ctl --list-devices
+  264  ffmpeg -f v4l2 -framerate 12 -video_size 300x240 -i /dev/video0 test.mkv
+  265  ls
+  266  ffmpeg -f v4l2 -framerate 30 -video_size 300x240 -ar 11025 -f flv -i /dev/video0 "rtmp://131.94.133.214:1935/live/pi_cats1_test"
+  267  ffmpeg -f v4l2 -video_size 300x240 -ar 11025 -f flv -i /dev/video0 "rtmp://131.94.133.214:1935/live/pi_cats1_test"
+  268  ffmpeg -f v4l2 -s 300x240 -ar 11025 -f flv -i /dev/video0 "rtmp://131.94.133.214:1935/live/pi_cats1_test"
+  269  top
+  270  htop
+  271  sudo ap-get install htop
+  272  sudo atp-get install htop
+  273  sudo apt-get install htop
+  274  htop
+  275  which python
+  276  uuidgen
+  277  sudo apt-get install uuidgen
+  278  python -c 'import uuid; print(str(uuid.uuid1()))'
+  279  sudo apt-get install httpie
+  280  python -c 'import uuid; print(str(uuid.uuid1()))'
+  281  http post 131.94.133.214/api/tracks/ uuid=5966a0ba-14ab-11e7-8690-b827eb212f5f
+  282  ffmpeg -f v4l2 -s 300x240 -ar 11025 -f flv -i /dev/video0 "rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats1test__"
+  283  ffmpeg -f v4l2 -s 300x240 -f flv -i /dev/video0 "rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats1test__"
+  284  ffmpeg -f v4l2  -f flv -i /dev/video0 "rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats1test__"
+  285  ls /dev
+  286  ffmpeg
+  287  ffmpeg -i /dev/video0
+  288  ffmpeg -f alsa -i /dev/video0
+  289  ffmpeg -vcodec libx264 -f flv -i /dev/video0 rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats-test__
+  290  ffmpeg  -f flv -i /dev/video0 rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats-test__
+  291  ffmpeg  -f flv -i /dev/video0 "rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats-test__"
+  292  ffmpeg  -f flv -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 "rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats-test__"
+  293  ffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 "rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats-test__"
+  294  ffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 -f flv "rtmp://131.94.133.214:1935/live/5966a0ba-14ab-11e7-8690-b827eb212f5f__pi-cats-test__"
+  295  python -c 'import uuid; print(str(uuid.uuid1()))'
+  296  http post 131.94.133.214/api/tracks/ uuid=44f48398-14b7-11e7-8f9b-b827eb212f5f
+  297  ffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 -f flv "rtmp://131.94.133.214:1935/live/44f48398-14b7-11e7-8f9b-b827eb212f5f__pi-cats-test__"
+  298  ls
+  299  htop
+  300  sudo shutdown now
+  301  ifconfig -a
+  302  ps -A
+  303  sudo service motion stop
+  304  sudo apt-get mpv
+  305  sudo apt-get install mpv
+  306  sudo apt-get update
+  307  avconv
+  308  avcon
+  309  sudo apt-get install mpv
+  310  ls
+  311  mkdir workspace
+  312  cd workspace/
+  313  mkdir recorder
+  314  cd recorder/
+  315  ls
+  316  exit
+  317  python
+  318  python3
+  319  pip3
+  320  sudo pip3 install requests
+  321  exit
+  322  clear
+  323  exit
+  324  ls
+  325  clear
+  326  sudo pip3 install ffmpy
+  327  cd workspace/
+  328  ls
+  329  cd recorder/
+  330  ls
+  331  python3 pyrecorder.py 
+  332  asdfasdfhttp post 131.94.133.214/api/tracks/ uuid=44f48398-14b7-11e7-8f9b-b827eb212f5f
+  333  vim pyrecorder.py 
+  334  sudo apt-get install vim
+  335  vim pyrecorder.py 
+  336  python pyrecorder.py 
+  337  python3 pyrecorder.py 
+  338  fg
+  339  python3 pyrecorder.py 
+  340  jasdfasffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 -f flv "rtmp://131.94.133.214:1935/live/44f48398-14b7-11e7-8f9b-b827eb212f5f__pi-cats-test__"
+  341  python3 pyrecorder.py 
+  342  htop
+  343  top
+  344  htop
+  345  clear
+  346  python3 pyrecorder.py 
+  347  jasdfasffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 -f flv "rtmp://131.94.133.214:1935/live/44f48398-14b7-11e7-8f9b-b827eb212f5f__pi-cats-test__"
+  348  python3 pyrecorder.py 
+  349  vim pyrecorder.py 
+  350  python3 pyrecorder.py 
+  351  pkill motion
+  352  sudo pkill motion
+  353  python3 pyrecorder.py 
+  354  fg
+  355  python3 pyrecorder.py 
+  356  fg
+  357  python3 pyrecorder.py 
+  358  exit
+  359  ps -A
+  360  sudo service motion status
+  361  history | grep motion
+  362  cat /etc/motion/motion.conf
+  363  sudo cat /etc/motion/motion.con
+  364  ifconfig 
+  365  sudo service motion restart
+  366  exit
+  367  cd workspace/recorder/
+  368  cd ..
+  369  gs
+  370  exit
+  371  clear
+  372  exit
+  373  ls
+  374  cd workspace/recorder/
+  375  ls
+  376  vim
+  377  vim pyrecorder.py 
+  378  python3 pyrecorder.py 
+  379  exit
+  380  jasdfasffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 -f flv "rtmp://131.94.133.214:1935/live/44f48398-14b7-11e7-8f9b-b827eb212f5f__pi-cats-test__"
+  381  exit
+  382  sudo service motion status
+  383  gpsmon
+  384  history | grep gps
+  385  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  386  gpsmon
+  387  cd workspace/recorder/
+  388  ls
+  389  l
+  390  ls -l
+  391  chmod +x pyrecorder.py 
+  392  ./pyrecorder.py 
+  393  sudo systemctl status
+  394  sudo systemctl status | grep motion
+  395  sudo systemctl status motion
+  396  sudo systemctl disable motion
+  397  sudo systemctl stop motion
+  398  ./pyrecorder.py 
+  399  vim pyrecorder.py 
+  400  gs
+  401  ls
+  402  ls -la
+  403  ./pyrecorder.py 
+  404  sudo vim /lib/systemd/system/pyrecorder.service
+  405  sudo chmod 644 /lib/systemd/system/pyrecorder.service
+  406  sudo systemctl daemon-reload
+  407  sudo systemctl enable pyrecorder.service
+  408  sudo vim /lib/systemd/system/pyrecorder.service
+  409  sudo systemctl enable pyrecorder.service
+  410  sudo reboot
+  411  sudo systemctl status pyrecorder
+  412  sudo vim /lib/systemd/system/pyrecorder.service
+  413  sudo systemctl enable pyrecorder.service
+  414  sudo systemctl start pyrecorder
+  415  sudo systemctl status pyrecorder
+  416  man systemd.directives
+  417  sudo vim /lib/systemd/system/pyrecorder.service
+  418  sudo systemctl dameon-reload
+  419  sudo systemctl daemon-reload
+  420  sudo systemctl enable pyrecorder
+  421  sudo systemctl restart pyrecorder
+  422  systemctl status pyrecorder
+  423  history | grep gps
+  424  sudo gpsd /dev.ttyAMA0 -F /var/run/gpsd.sock
+  425  gpsmon
+  426  sudo systemctl status pyrecorder
+  427  sudo systemctl status gpsd
+  428  sudo systemctl status gpsd.socket
+  429  man gpsmon
+  430  gpsmon
+  431  cgps -s
+  432  sudo killall gpsd
+  433  sudo gpsd /dev.ttyAMA0 -F /var/run/gpsd.sock
+  434  cgps -s
+  435  cd workspace/pyrecorder
+  436  cd workspace/recorder/
+  437  ls
+  438  vim pyrecorder.py 
+  439  git
+  440  cd ..
+  441  ls
+  442  rm -rf recorder/
+  443  git clone http://131.94.133.202/mvideo/pyrecorder recorder
+  444  cd recorder/
+  445  ls
+  446  curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  447  cd ..
+  448  cd -
+  449  ls
+  450  vim ~/.vimrc
+  451  vim ~/.vimrc 
+  452  vim pyrecorder.py 
+  453  sudo systemctl stop pyrecorder
+  454  sudo pip install gps
+  455  sudo pi3 install gps
+  456  vim pyrecorder.py 
+  457  ls
+  458  vim pyrecorder.py 
+  459  vim
+  460  python --version
+  461  vim pyrecorder.py 
+  462  python
+  463  python --version
+  464  vim
+  465  vim pyrecorder.py 
+  466  python3
+  467  vim pyrecorder.py 
+  468  ./pyrecorder.py 
+  469  pip3
+  470  pip3 install gps
+  471  sudo pip3 install gps
+  472  cat ~/.pip/pip.log
+  473  vim pyrecorder.py 
+  474  ./pyrecorder.py 
+  475  vim pyrecorder.py 
+  476  ./pyrecorder.py 
+  477  python3
+  478  vim pyrecorder.py 
+  479  ./pyrecorder.py 
+  480  vim pyrecorder.py 
+  481  ./pyrecorder.py 
+  482  vim pyrecorder.py 
+  483  ./pyrecorder.py 
+  484  fg
+  485  clear
+  486  ls /dev/ttyUSB*
+  487  sudo ls /dev/ttyUSB*
+  488  sudo lsusb
+  489  gpsd
+  490  cgps -s
+  491  sudo killall gpsd
+  492  sudo gpsd /dev.ttyAMA0 -F /var/run/gpsd.sock
+  493  cgps -s
+  494  gpsmon
+  495  clear
+  496  sudo neststat -plnt
+  497  sudo netstat -plnt
+  498  sudo reboot
+  499  exit
+  500  sudo systemctl status gpsd
+  501  gpsmon
+  502  sudo gpsd /dev.ttyAMA0 -F /var/run/gpsd.sock
+  503  gpsmon
+  504  ls /dev
+  505  sudo vim /boot/cmdline.txt 
+  506  sudo systemctl stop serial-getty@ttyAMA0.service
+  507  sudo systemctl disable serial-getty@ttyAMA0.service 
+  508  stty -F /dev/ttyAMA0 raw 9600 cs8 clocal -cstopb
+  509  cat /dev/ttyAMA0 
+  510  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  511  gpsmon
+  512  cgps -s
+  513  sudo systemctl stop gpsd.socket
+  514  sudo systemctl disable gpsd.socket
+  515  sudo systemctl status gpsd.socket
+  516  sudo systemctl enable gpsd.socket
+  517  sudo systemctl start gpsd.socket
+  518  journalctl -xn 
+  519  sudo journalctl -xn 
+  520  sudo systemctl stop gpsd.socket
+  521  sudo systemctl disable gpsd.socket
+  522  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  523  sudo cgps -s
+  524  sudo killall gpsd
+  525  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  526  sudo cgps -s
+  527  python3
+  528  clear
+  529  python3
+  530  pip3 install gps
+  531  pip isntall gps
+  532  pip install gps
+  533  pip3 install gps-python3
+  534  python
+  535  ls
+  536  cd workspace/recorder/
+  537  ls
+  538  vim gpstest.py
+  539  chmod +x gpstest.py 
+  540  head pyrecorder.py 
+  541  vim gpstest.py 
+  542  ./gpstest.py 
+  543  vim gpstest.py 
+  544  ./gpstest.py 
+  545  vim gpstest.py 
+  546  ./gpstest.py 
+  547  vim gpstest.py 
+  548  ./gpstest.py 
+  549  vim gpstest.py 
+  550  ./gpstest.py 
+  551  vim gpstest.py 
+  552  ./gpstest.py 
+  553  vim gpstest.py 
+  554  ./gpstest.py 
+  555  vim pyrecorder.py 
+  556  sudo pip3 install gps3
+  557  fg
+  558  python
+  559  python3
+  560  rm -rf gpstest.py 
+  561  vim requirements.txt 
+  562  gs
+  563  git status
+  564  echo "__pycache__/" >> .gitignore 
+  565  gs
+  566  alias gs='git status'
+  567  gs
+  568  fg
+  569  ls
+  570  fg
+  571  vim pyrecorder.py 
+  572  ./pyrecorder.py 
+  573  sudo systemctl stop pyrecorder
+  574  ./pyrecorder.py 
+  575  vim pyrecorder.py 
+  576  python3
+  577  fg
+  578  ./pyrecorder.py 
+  579  clear
+  580  git status
+  581  git add .
+  582  git commit -am "Adds gps updates using connected gps daemon"
+  583  git config --global user.email "pachevjoseph@gmail.com"
+  584  git config --global user.name "Pachev Joseph"
+  585  git commit -am "Adds gps updates using connected gps daemon"
+  586  git push
+  587  exit
+  588  pptp
+  589  cd /etc/ppp/peers
+  590  sudo cd /etc/ppp/peers
+  591  sudo su
+  592  sudo reboot
+  593  ifconfig
+  594  pptp 
+  595  pptp FIUVPN
+  596  history | grep pptp
+  597  sudo pptp FIUVPN
+  598  sudo pptp --help
+  599  pptp FIUVPN --start
+  600  pptp FIUVPN --startsudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --encrypt --start
+  601  sudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --encrypt --start
+  602  ifconfig 
+  603  ping 131.94.133.214
+  604  ping cats-pi1x
+  605  ping 131.94.133.228
+  606  sudo reboot
+  607  sudo systemctl statu pyrecorder
+  608  sudo systemctl status pyrecorder
+  609  ifconfig -a
+  610  sudo pptpsetup --create ITPAVPN --server vpn.cs.fiu.edu --username itpa01 --password itpaHPDRC7 --encrypt --start
+  611  ifconfig -a
+  612  man pptpsetup
+  613  sudo pptpsetup --create ITPAVPN --server vpn.cs.fiu.edu --username itpa01 --password itpaHPDRC7 --encrypt --start
+  614  ifconfig
+  615  route -n
+  616  ifconfig
+  617  route -n
+  618  ping 10.128.4.1
+  619  iptables -L
+  620  sudo iptables -L
+  621  ifconfig -a
+  622  route -n
+  623  host vpn
+  624  host vpn.cs.fiu.edu
+  625  sudo -s
+  626  fconf
+  627  exit
+  628  sudo shutdown -h now 
+  629  exit
+  630  systemctl status pyrecorder.service 
+  631  journalctl -xe | grep pyrecorder
+  632  sudo journalctl -xe
+  633  journalctl -xe | grep pyrecorderjj
+  634  sudoasdfasldfalsdfl;as;dfjkasdfsd
+  635  sudo systemctl stop pyrecorder
+  636  exit
+  637  cd /var/www/html/
+  638  ls
+  639  cd live/
+  640  ls
+  641  chmod 644 stream.m3u8 
+  642  sudo chmod 644 stream.m3u8 
+  643  ls -lah
+  644  sudo chmod 711 stream.m3u8 
+  645  ls -lah
+  646  ls segments/
+  647  ls
+  648  ls -lh
+  649  vim index.html 
+  650  sudo vim index.html 
+  651  ls
+  652  ls stream.m3u8 
+  653  ls -lh stream.m3u8 
+  654  ls -lh segments/
+  655  ls
+  656  sudo vim index.html 
+  657  exit
+  658  ls
+  659  raspivid 
+  660  sudo apt-get install nginx
+  661  ls
+  662  cd /var/www/html/
+  663  ls
+  664  mkdir live
+  665  ls
+  666  sudo mkdir live
+  667  ls
+  668  mv index.nginx-debian.html index.html
+  669  ls 
+  670  su rm -rf live
+  671  sudo rm -rf live/
+  672  ls
+  673  cd /usr/share/nginx/
+  674  ls
+  675  cd html/
+  676  ls
+  677  cat index.html 
+  678  vim index.html 
+  679  ls
+  680  sudo vim index.html 
+  681  mv index.html asdf
+  682  cd -
+  683  cd /var/www/html/
+  684  ls
+  685  cd ..
+  686  mkdir live
+  687  ls
+  688  sudo mkdir live
+  689  ls
+  690  cd live/
+  691  ls
+  692  cd
+  693  ls
+  694  ls Videos/
+  695  ls
+  696  cd workspace/
+  697  ls
+  698  mkdir hls_recorder
+  699  cd hls_recorder/
+  700  vim video.sh
+  701  fg
+  702  ls
+  703  cd /var/www/html/
+  704  ls
+  705  sudo vim index.html
+  706  cd -
+  707  ls
+  708  vim video.sh 
+  709  chmod +x video.sh 
+  710  ./video.sh 
+  711  sudo ./video.sh 
+  712  ls /var/www/live/
+  713  vim video.sh 
+  714  pwd
+  715  ./video.sh 
+  716  vim video.sh 
+  717  mkdir segments
+  718  ./video.sh 
+  719  vim video.sh 
+  720  cd -
+  721  ls
+  722  cd ..
+  723  ls
+  724  cd live/
+  725  mkdir segments
+  726  sudo mkdir segments
+  727  /home/pi/workspace/hls_recorder/video.sh 
+  728  sudo /home/pi/workspace/hls_recorder/video.sh 
+  729  ls
+  730  ls segments/
+  731  cd ..
+  732  ls
+  733  sudo mv live/ html
+  734  ls
+  735  cd html/
+  736  ls
+  737  sudo vim index.html 
+  738  vim /home/pi/workspace/hls_recorder/video.sh 
+  739  ls
+  740  sudo /home/pi/workspace/hls_recorder/video.sh 
+  741  ls
+  742  sudo chmod 755 live/
+  743  ls
+  744  ls live/
+  745  sudo chmod 755 live/segments/
+  746  ls
+  747  sudo cp index.html live/
+  748  sudo vim live/index.html 
+  749  sudo /home/pi/workspace/hls_recorder/video.sh 
+  750  ls
+  751  cd live/
+  752  ls
+  753  cd segments/
+  754  ls
+  755  vim ~/workspace/hls_recorder/video.sh 
+  756  avconvi
+  757  cd
+  758  systemctl start pyrecorder
+  759  sudo systemctl start pyrecorder
+  760  sudo systemctl restart pyrecorder
+  761  sudo systemctl stop pyrecorder
+  762  ls
+  763  vim workspace/recorder/pyrecorder.py 
+  764  sudo systemctl start pyrecorder
+  765  sudo systemctl stop pyrecorder
+  766  ls
+  767  gs
+  768  cd workspace/
+  769  ls
+  770  cd recorder/
+  771  python3 pyrecorder.py 
+  772  vim pyrecorder.py 
+  773  python3 pyrecorder.py 
+  774  vim pyrecorder.py 
+  775  python3 pyrecorder.py 
+  776  vim pyrecorder.py 
+  777  python3 pyrecorder.py 
+  778  systemctl status pyrecorder
+  779  systemctl stop pyrecorder
+  780  sudo systemctl stop pyrecorder
+  781  sudo systemctl stjj pyrecorder
+  782  sudo reboot
+  783  systemctl stop pyrecorder
+  784  sudo systemctl stop pyrecorder
+  785  sudo systemctl status pyrecorder
+  786  raspistill -o 
+  787  ls
+  788  systemctl stop pyrecorder
+  789  sudosystemctl stop pyrecorder
+  790  sudo systemctl stop pyrecorder
+  791  stty -F /dev/ttyAMA0 raw 9600 cs8 clocal -cstop
+  792  stty -F /dev/ttyAMA0 raw 9600 cs8 clocal -cstopb
+  793  cat /dev/ttyAMA0
+  794  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  795  gpsdmon
+  796  gpsmon
+  797  cpgs -s
+  798  cgps -s
+  799  clear
+  800  cd workspace/
+  801  ls
+  802  cd recorder/
+  803  ls
+  804  vim pyrecorder.py 
+  805  sudo systemctl status pyrecorder
+  806  sudo vim /lib/systemd/system/pyrecorder.service 
+  807  ls
+  808  vim pyrecorder.sh
+  809  chmod +x pyrecorder.sh 
+  810  vim pyrecorder.sh 
+  811  pwd
+  812  vim pyrecorder.sh 
+  813  vim pyrecorder.py 
+  814  ./pyrecorder.sh 
+  815  clear
+  816  vim pyrecorder.py 
+  817  sudo gpsd
+  818  cgps -s
+  819  vim pyrecorder.sh 
+  820  sudo ./pyrecorder.sh 
+  821  fg
+  822  sudo vim /lib/systemd/system/pyrecorder.service 
+  823  sudo systemctl daemon-reload
+  824  sudo systemctl enable pyrecorder.service
+  825  sudo systemctl start pyrecorder.service 
+  826  sudo systemctl status pyrecorder.service 
+  827  vim pyrecorder.sh 
+  828  sudo systemctl restart pyrecorder.service 
+  829  sudo systemctl status pyrecorder.service 
+  830  sudo journalctl -xe
+  831  sudo vim /lib/systemd/system/pyrecorder.service 
+  832  sudo systemctl daemon-reload
+  833  sudo systemctl enable pyrecorder.service
+  834  sudo systemctl start pyrecorder
+  835  sudo systemctl status pyrecorder.service 
+  836  sudo reboot now
+  837  sudo systemctl restart pyrecorder
+  838  sudo systemctl status pyrecorder
+  839  sudo vim /lib/systemd/system/pyrecorder.service 
+  840  ls
+  841  cd workspace/
+  842  ls
+  843  cd recorder/
+  844  ls
+  845  cat pyrecorder.py 
+  846  vim pyrecorder.py 
+  847  sudo systemctl restart pyrecorder
+  848  sudo systemctl status pyrecorder
+  849  sudo journalctl -xe
+  850  sudo systemctl stop pyrecorder
+  851  vim pyrecorder.py 
+  852  sudo systemctl restart pyrecorder
+  853  sudo systemctl stop pyrecorder
+  854  fg
+  855  sudo systemctl status pyrecorder
+  856  sudo journalctl -xe
+  857  clear
+  858  sudo systemctl status pyrecorder
+  859  clear
+  860  fg
+  861  sudo systemctl stop pyrecorder
+  862  sudo reboot now
+  863  ls
+  864  history|grep ffmpeg
+  865  history|less
+  866  uuidgen
+  867  uuidgen() q
+  868  ls
+  869  history|grep uuid
+  870  python -c 'import uuid; print(str(uuid.uuid1()))' >! uuid.txt
+  871  cat uuid.txt
+  872  ls
+  873  cat !
+  874  rm -f !
+  875  cd workspace/pyrecorder
+  876  ls
+  877  cd workspace
+  878  cd recorder/
+  879  ls
+  880  mkdir raspivid
+  881  cd raspivid
+  882  vim record.sh
+  883  fg
+  884  chmod +x record.sh 
+  885  ./record.sh 
+  886  fg
+  887  vim record.sh 
+  888  ./record.sh 
+  889  fg
+  890  vim record.sh 
+  891  fg
+  892  ./record.sh 
+  893  fg
+  894  vim record.sh 
+  895  ./record.sh 
+  896  fg
+  897  ./record.sh 
+  898  fg
+  899  ./record.sh 
+  900  fg
+  901  ./record.sh 
+  902  fg
+  903  ./record.sh 
+  904  fg
+  905  ls
+  906  rm -f UUID
+  907  fg
+  908  ./record.sh 
+  909  fg
+  910  ./record.sh 
+  911  fg
+  912  ./record.sh 
+  913  fg
+  914  ./record.sh 
+  915  fg
+  916  ./record.sh 
+  917  vim record.sh 
+  918  ./record.sh 
+  919  fg
+  920  vim record.sh 
+  921  ./record.sh 
+  922  sudo systemctl stop pyrecorder
+  923  ./record.sh 
+  924  fg
+  925  ./record.sh 
+  926  fg
+  927  ./record.sh 
+  928  fg
+  929  ./record.sh 
+  930  fg
+  931  ./record.sh 
+  932  fg
+  933  ./record.sh 
+  934  fg
+  935  ./record.sh 
+  936  fg
+  937  ./record.sh 
+  938  fg
+  939  ./record.sh 
+  940  fg
+  941  ./record.sh 
+  942  fg
+  943  exit
+  944  sudo apt-get update
+  945  history 
+  946  cd workspace/
+  947  ls
+  948  cd recorder/
+  949  ls
+  950  cat pyrecorder.py 
+  951  cat pyrecorder.sh
+  952  ls
+  953  cd raspivid/
+  954  ls
+  955  cat record.sh 
+  956  vim record.sh 
+  957  sudo apt-get update
+  958  ifconfig 
+  959  sudo reboot
+  960  raspi-config
+  961  sudo raspi-config 
+  962  ls
+  963  cd workspace/recorder/
+  964  ls
+  965  cat raspivid/record.sh 
+  966  vi raspivid/record.sh 
+  967  sudo reboot
+  968  vi raspivid/record.sh 
+  969  ls
+  970  ls workspace/
+  971  vi workspace/recorder/raspivid/record.sh 
+  972  history | grep service
+  973  sudo systemctl status pyrecorder.service 
+  974  vi workspace/recorder/raspivid/record.sh 
+  975  sudo systemctl status pyrecorder.service 
+  976  vi workspace/recorder/raspivid/record.sh 
+  977  sudo systemctl status pyrecorder.service 
+  978  vi workspace/recorder/raspivid/record.sh 
+  979  sudo systemctl status pyrecorder.service 
+  980  sudo systemctl restart pyrecorder.service 
+  981  vi workspace/recorder/raspivid/record.sh 
+  982  sudo systemctl restart pyrecorder.service 
+  983  vi workspace/recorder/raspivid/record.sh 
+  984  vi workspace/recorder/raspivid/record.sh
+  985  sudo systemctl restart pyrecorder.service 
+  986  vi raspivid/record.sh 
+  987  vi workspace/recorder/raspivid/record.sh 
+  988  history | grep service
+  989  sudo systemctl status pyrecorder.service 
+  990  sudo systemctl restart pyrecorder.service 
+  991  vi workspace/recorder/raspivid/record.sh 
+  992  sudo systemctl restart pyrecorder.service 
+  993  vi workspace/recorder/raspivid/record.sh 
+  994  sudo shutdown -h now
+  995  raspistill -o
+  996  raspivid -o
+  997  raspivid -o -t 5000000
+  998  raspivid -o -t 50000
+  999  raspivid --help
+ 1000  raspivid -t 5m -o 
+ 1001  raspivid -t 5m -p
+ 1002  raspivid --help
+ 1003  raspivid -o -t 5000
+ 1004  raspivid -o -t 15,000
+ 1005  raspivid -o -t 5000s
+ 1006  raspivid -t 5000s 
+ 1007  raspivid -t 500000s 
+ 1008  stopx
+ 1009  sudo killall gdm
+ 1010  raspivid -t 5000s 
+ 1011  raspivid -t 50000s 
+ 1012  exit
+ 1013  sudo systemctl stop pyrecorder.service 
+ 1014  startx
+ 1015  sudo systemctl start pyrecorder.service 
+ 1016  sudo shutdown -h now
+ 1017  sudo systemctl stop pyrecorder.service 
+ 1018  raspivid -t 50000s 
+ 1019  sudo systemctl start pyrecorder.service 
+ 1020  sudo shutdown -h now
+ 1021  raspivid -t 50000s 
+ 1022  raspivid --help
+ 1023  raspi-config 
+ 1024  sudo raspi-config 
+ 1025  clear
+ 1026  reboot
+ 1027  raspivid -t 50000s 
+ 1028  raspivid -t 50000s -w 640 -h 480
+ 1029  reboot
+ 1030  raspivid -t 50000s -w 640 -h 480
+ 1031  raspivid -t 50000s -w 800 -h 600
+ 1032  raspivid -t 50000s
+ 1033  shutdown -h now
+ 1034  shutdown -h now
+ 1035  raspivid -t 50000s
+ 1036  sudo systemctl stop pyrecorder.service 
+ 1037  vi workspace/recorder/raspivid/record.sh 
+ 1038  sudo systemctl start pyrecorder.service 
+ 1039  raspivid -t 50000s
+ 1040  sudo systemctl stop pyrecorder.service 
+ 1041  vi workspace/recorder/raspivid/record.sh 
+ 1042  clear
+ 1043  sudo systemctl start pyrecorder.service 
+ 1044  sudo systemctl stop pyrecorder.service 
+ 1045  vi workspace/recorder/raspivid/record.sh 
+ 1046  sudo systemctl start pyrecorder.service 
+ 1047  sudo systemctl stop pyrecorder.service 
+ 1048  vi workspace/recorder/raspivid/record.sh 
+ 1049  clear
+ 1050  sudo systemctl start pyrecorder.service 
+ 1051  raspivid -t 50000s
+ 1052  vi workspace/recorder/raspivid/record.sh 
+ 1053  shutdown -h now
+ 1054  gpsmon
+ 1055  shutdown -h now
+ 1056  sudo apt-get update
+ 1057  exit
+ 1058  sudo apt-get update
+ 1059  logout
+ 1060  kill apt-get
+ 1061  ps
+ 1062  ps -A
+ 1063  sudo kill 1032
+ 1064  ps -A
+ 1065  sudo reboot
+ 1066  sudo apt-get update
+ 1067  ifconfig
+ 1068  sudo apt-get update
+ 1069  ps -A
+ 1070  kill all apt-get
+ 1071  kill apt-gety
+ 1072  kill 23483
+ 1073  sudo kill 23483
+ 1074  sudo apt-get update
+ 1075  sudo reboot
+ 1076  sudo systemctl stop pyrecorder.service 
+ 1077  sudo systemctl start pyrecorder.service 
+ 1078  sudo shutdown -h now
+ 1079  ls
+ 1080  exit
+ 1081  ls
+ 1082  ls -lta
+ 1083  cd Desktop
+ 1084  ls
+ 1085  cd ../Downloads
+ 1086  ls
+ 1087  cd ../Documents
+ 1088  ls
+ 1089  vi workspace/recorder/raspivid/record.sh 
+ 1090  ls
+ 1091  cd workspace/
+ 1092  ls
+ 1093  cd _re
+ 1094  ls -lta
+ 1095  cd /
+ 1096  ls
+ 1097  cd ~
+ 1098  ls
+ 1099  cd scripts/
+ 1100  ls
+ 1101  cd ../Videos/
+ 1102  ls
+ 1103  cd ../Public/
+ 1104  ls
+ 1105  cd ../Documents/
+ 1106  ls
+ 1107  cat motion.conf 
+ 1108  cat motion.conf  : more
+ 1109  cat motion.conf | more
+ 1110  ls 
+ 1111  cd ..
+ 1112  ls
+ 1113  cd Desktop/
+ 1114  ls
+ 1115  cd ..
+ 1116  ls
+ 1117  cd Templates/
+ 1118  ls
+ 1119  cd ..
+ 1120  ls
+ 1121  cd ..
+ 1122  ls
+ 1123  cd run/
+ 1124  ls
+ 1125  cd ~
+ 1126  cd scripts/
+ 1127  ls
+ 1128  cd ../oldconffiles/
+ 1129  ls
+ 1130  cd ../workspace/
+ 1131  ls
+ 1132  cd recorder/
+ 1133  ls'
+ 1134  ls
+ 1135  cat pyrecorder.sh 
+ 1136  cat pyrecorder.py 
+ 1137  cat pyrecorder.py  | more
+ 1138  ls
+ 1139  cd raspivid/
+ 1140  ls
+ 1141  cat record.sh 
+ 1142  startx
+  319  pip3
+  320  sudo pip3 install requests
+  321  exit
+  322  clear
+  323  exit
+  324  ls
+  325  clear
+  326  sudo pip3 install ffmpy
+  327  cd workspace/
+  328  ls
+  329  cd recorder/
+  330  ls
+  331  python3 pyrecorder.py 
+  332  asdfasdfhttp post 131.94.133.214/api/tracks/ uuid=44f48398-14b7-11e7-8f9b-b827eb212f5f
+  333  vim pyrecorder.py 
+  334  sudo apt-get install vim
+  335  vim pyrecorder.py 
+  336  python pyrecorder.py 
+  337  python3 pyrecorder.py 
+  338  fg
+  339  python3 pyrecorder.py 
+  340  jasdfasffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 -f flv "rtmp://131.94.133.214:1935/live/44f48398-14b7-11e7-8f9b-b827eb212f5f__pi-cats-test__"
+  341  python3 pyrecorder.py 
+  342  htop
+  343  top
+  344  htop
+  345  clear
+  346  python3 pyrecorder.py 
+  347  jasdfasffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 -f flv "rtmp://131.94.133.214:1935/live/44f48398-14b7-11e7-8f9b-b827eb212f5f__pi-cats-test__"
+  348  python3 pyrecorder.py 
+  349  vim pyrecorder.py 
+  350  python3 pyrecorder.py 
+  351  pkill motion
+  352  sudo pkill motion
+  353  python3 pyrecorder.py 
+  354  fg
+  355  python3 pyrecorder.py 
+  356  fg
+  357  python3 pyrecorder.py 
+  358  exit
+  359  ps -A
+  360  sudo service motion status
+  361  history | grep motion
+  362  cat /etc/motion/motion.conf
+  363  sudo cat /etc/motion/motion.con
+  364  ifconfig 
+  365  sudo service motion restart
+  366  exit
+  367  cd workspace/recorder/
+  368  cd ..
+  369  gs
+  370  exit
+  371  clear
+  372  exit
+  373  ls
+  374  cd workspace/recorder/
+  375  ls
+  376  vim
+  377  vim pyrecorder.py 
+  378  python3 pyrecorder.py 
+  379  exit
+  380  jasdfasffmpeg  -f v4l2 -i /dev/video0 -s 320x240 -ar 11025 -r 30.0 -f flv "rtmp://131.94.133.214:1935/live/44f48398-14b7-11e7-8f9b-b827eb212f5f__pi-cats-test__"
+  381  exit
+  382  sudo service motion status
+  383  gpsmon
+  384  history | grep gps
+  385  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  386  gpsmon
+  387  cd workspace/recorder/
+  388  ls
+  389  l
+  390  ls -l
+  391  chmod +x pyrecorder.py 
+  392  ./pyrecorder.py 
+  393  sudo systemctl status
+  394  sudo systemctl status | grep motion
+  395  sudo systemctl status motion
+  396  sudo systemctl disable motion
+  397  sudo systemctl stop motion
+  398  ./pyrecorder.py 
+  399  vim pyrecorder.py 
+  400  gs
+  401  ls
+  402  ls -la
+  403  ./pyrecorder.py 
+  404  sudo vim /lib/systemd/system/pyrecorder.service
+  405  sudo chmod 644 /lib/systemd/system/pyrecorder.service
+  406  sudo systemctl daemon-reload
+  407  sudo systemctl enable pyrecorder.service
+  408  sudo vim /lib/systemd/system/pyrecorder.service
+  409  sudo systemctl enable pyrecorder.service
+  410  sudo reboot
+  411  sudo systemctl status pyrecorder
+  412  sudo vim /lib/systemd/system/pyrecorder.service
+  413  sudo systemctl enable pyrecorder.service
+  414  sudo systemctl start pyrecorder
+  415  sudo systemctl status pyrecorder
+  416  man systemd.directives
+  417  sudo vim /lib/systemd/system/pyrecorder.service
+  418  sudo systemctl dameon-reload
+  419  sudo systemctl daemon-reload
+  420  sudo systemctl enable pyrecorder
+  421  sudo systemctl restart pyrecorder
+  422  systemctl status pyrecorder
+  423  history | grep gps
+  424  sudo gpsd /dev.ttyAMA0 -F /var/run/gpsd.sock
+  425  gpsmon
+  426  sudo systemctl status pyrecorder
+  427  sudo systemctl status gpsd
+  428  sudo systemctl status gpsd.socket
+  429  man gpsmon
+  430  gpsmon
+  431  cgps -s
+  432  sudo killall gpsd
+  433  sudo gpsd /dev.ttyAMA0 -F /var/run/gpsd.sock
+  434  cgps -s
+  435  cd workspace/pyrecorder
+  436  cd workspace/recorder/
+  437  ls
+  438  vim pyrecorder.py 
+  439  git
+  440  cd ..
+  441  ls
+  442  rm -rf recorder/
+  443  git clone http://131.94.133.202/mvideo/pyrecorder recorder
+  444  cd recorder/
+  445  ls
+  446  curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  447  cd ..
+  448  cd -
+  449  ls
+  450  vim ~/.vimrc
+  451  vim ~/.vimrc 
+  452  vim pyrecorder.py 
+  453  sudo systemctl stop pyrecorder
+  454  sudo pip install gps
+  455  sudo pi3 install gps
+  456  vim pyrecorder.py 
+  457  ls
+  458  vim pyrecorder.py 
+  459  vim
+  460  python --version
+  461  vim pyrecorder.py 
+  462  python
+  463  python --version
+  464  vim
+  465  vim pyrecorder.py 
+  466  python3
+  467  vim pyrecorder.py 
+  468  ./pyrecorder.py 
+  469  pip3
+  470  pip3 install gps
+  471  sudo pip3 install gps
+  472  cat ~/.pip/pip.log
+  473  vim pyrecorder.py 
+  474  ./pyrecorder.py 
+  475  vim pyrecorder.py 
+  476  ./pyrecorder.py 
+  477  python3
+  478  vim pyrecorder.py 
+  479  ./pyrecorder.py 
+  480  vim pyrecorder.py 
+  481  ./pyrecorder.py 
+  482  vim pyrecorder.py 
+  483  ./pyrecorder.py 
+  484  fg
+  485  clear
+  486  ls /dev/ttyUSB*
+  487  sudo ls /dev/ttyUSB*
+  488  sudo lsusb
+  489  gpsd
+  490  cgps -s
+  491  sudo killall gpsd
+  492  sudo gpsd /dev.ttyAMA0 -F /var/run/gpsd.sock
+  493  cgps -s
+  494  gpsmon
+  495  clear
+  496  sudo neststat -plnt
+  497  sudo netstat -plnt
+  498  sudo reboot
+  499  exit
+  500  sudo systemctl status gpsd
+  501  gpsmon
+  502  sudo gpsd /dev.ttyAMA0 -F /var/run/gpsd.sock
+  503  gpsmon
+  504  ls /dev
+  505  sudo vim /boot/cmdline.txt 
+  506  sudo systemctl stop serial-getty@ttyAMA0.service
+  507  sudo systemctl disable serial-getty@ttyAMA0.service 
+  508  stty -F /dev/ttyAMA0 raw 9600 cs8 clocal -cstopb
+  509  cat /dev/ttyAMA0 
+  510  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  511  gpsmon
+  512  cgps -s
+  513  sudo systemctl stop gpsd.socket
+  514  sudo systemctl disable gpsd.socket
+  515  sudo systemctl status gpsd.socket
+  516  sudo systemctl enable gpsd.socket
+  517  sudo systemctl start gpsd.socket
+  518  journalctl -xn 
+  519  sudo journalctl -xn 
+  520  sudo systemctl stop gpsd.socket
+  521  sudo systemctl disable gpsd.socket
+  522  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  523  sudo cgps -s
+  524  sudo killall gpsd
+  525  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  526  sudo cgps -s
+  527  python3
+  528  clear
+  529  python3
+  530  pip3 install gps
+  531  pip isntall gps
+  532  pip install gps
+  533  pip3 install gps-python3
+  534  python
+  535  ls
+  536  cd workspace/recorder/
+  537  ls
+  538  vim gpstest.py
+  539  chmod +x gpstest.py 
+  540  head pyrecorder.py 
+  541  vim gpstest.py 
+  542  ./gpstest.py 
+  543  vim gpstest.py 
+  544  ./gpstest.py 
+  545  vim gpstest.py 
+  546  ./gpstest.py 
+  547  vim gpstest.py 
+  548  ./gpstest.py 
+  549  vim gpstest.py 
+  550  ./gpstest.py 
+  551  vim gpstest.py 
+  552  ./gpstest.py 
+  553  vim gpstest.py 
+  554  ./gpstest.py 
+  555  vim pyrecorder.py 
+  556  sudo pip3 install gps3
+  557  fg
+  558  python
+  559  python3
+  560  rm -rf gpstest.py 
+  561  vim requirements.txt 
+  562  gs
+  563  git status
+  564  echo "__pycache__/" >> .gitignore 
+  565  gs
+  566  alias gs='git status'
+  567  gs
+  568  fg
+  569  ls
+  570  fg
+  571  vim pyrecorder.py 
+  572  ./pyrecorder.py 
+  573  sudo systemctl stop pyrecorder
+  574  ./pyrecorder.py 
+  575  vim pyrecorder.py 
+  576  python3
+  577  fg
+  578  ./pyrecorder.py 
+  579  clear
+  580  git status
+  581  git add .
+  582  git commit -am "Adds gps updates using connected gps daemon"
+  583  git config --global user.email "pachevjoseph@gmail.com"
+  584  git config --global user.name "Pachev Joseph"
+  585  git commit -am "Adds gps updates using connected gps daemon"
+  586  git push
+  587  exit
+  588  pptp
+  589  cd /etc/ppp/peers
+  590  sudo cd /etc/ppp/peers
+  591  sudo su
+  592  sudo reboot
+  593  ifconfig
+  594  pptp 
+  595  pptp FIUVPN
+  596  history | grep pptp
+  597  sudo pptp FIUVPN
+  598  sudo pptp --help
+  599  pptp FIUVPN --start
+  600  pptp FIUVPN --startsudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --encrypt --start
+  601  sudo pptpsetup --create FIUVPN --server vpn.cs.fiu.edu --username mullerk --password kingOFshadows --encrypt --start
+  602  ifconfig 
+  603  ping 131.94.133.214
+  604  ping cats-pi1x
+  605  ping 131.94.133.228
+  606  sudo reboot
+  607  sudo systemctl statu pyrecorder
+  608  sudo systemctl status pyrecorder
+  609  ifconfig -a
+  610  sudo pptpsetup --create ITPAVPN --server vpn.cs.fiu.edu --username itpa01 --password itpaHPDRC7 --encrypt --start
+  611  ifconfig -a
+  612  man pptpsetup
+  613  sudo pptpsetup --create ITPAVPN --server vpn.cs.fiu.edu --username itpa01 --password itpaHPDRC7 --encrypt --start
+  614  ifconfig
+  615  route -n
+  616  ifconfig
+  617  route -n
+  618  ping 10.128.4.1
+  619  iptables -L
+  620  sudo iptables -L
+  621  ifconfig -a
+  622  route -n
+  623  host vpn
+  624  host vpn.cs.fiu.edu
+  625  sudo -s
+  626  fconf
+  627  exit
+  628  sudo shutdown -h now 
+  629  exit
+  630  systemctl status pyrecorder.service 
+  631  journalctl -xe | grep pyrecorder
+  632  sudo journalctl -xe
+  633  journalctl -xe | grep pyrecorderjj
+  634  sudoasdfasldfalsdfl;as;dfjkasdfsd
+  635  sudo systemctl stop pyrecorder
+  636  exit
+  637  cd /var/www/html/
+  638  ls
+  639  cd live/
+  640  ls
+  641  chmod 644 stream.m3u8 
+  642  sudo chmod 644 stream.m3u8 
+  643  ls -lah
+  644  sudo chmod 711 stream.m3u8 
+  645  ls -lah
+  646  ls segments/
+  647  ls
+  648  ls -lh
+  649  vim index.html 
+  650  sudo vim index.html 
+  651  ls
+  652  ls stream.m3u8 
+  653  ls -lh stream.m3u8 
+  654  ls -lh segments/
+  655  ls
+  656  sudo vim index.html 
+  657  exit
+  658  ls
+  659  raspivid 
+  660  sudo apt-get install nginx
+  661  ls
+  662  cd /var/www/html/
+  663  ls
+  664  mkdir live
+  665  ls
+  666  sudo mkdir live
+  667  ls
+  668  mv index.nginx-debian.html index.html
+  669  ls 
+  670  su rm -rf live
+  671  sudo rm -rf live/
+  672  ls
+  673  cd /usr/share/nginx/
+  674  ls
+  675  cd html/
+  676  ls
+  677  cat index.html 
+  678  vim index.html 
+  679  ls
+  680  sudo vim index.html 
+  681  mv index.html asdf
+  682  cd -
+  683  cd /var/www/html/
+  684  ls
+  685  cd ..
+  686  mkdir live
+  687  ls
+  688  sudo mkdir live
+  689  ls
+  690  cd live/
+  691  ls
+  692  cd
+  693  ls
+  694  ls Videos/
+  695  ls
+  696  cd workspace/
+  697  ls
+  698  mkdir hls_recorder
+  699  cd hls_recorder/
+  700  vim video.sh
+  701  fg
+  702  ls
+  703  cd /var/www/html/
+  704  ls
+  705  sudo vim index.html
+  706  cd -
+  707  ls
+  708  vim video.sh 
+  709  chmod +x video.sh 
+  710  ./video.sh 
+  711  sudo ./video.sh 
+  712  ls /var/www/live/
+  713  vim video.sh 
+  714  pwd
+  715  ./video.sh 
+  716  vim video.sh 
+  717  mkdir segments
+  718  ./video.sh 
+  719  vim video.sh 
+  720  cd -
+  721  ls
+  722  cd ..
+  723  ls
+  724  cd live/
+  725  mkdir segments
+  726  sudo mkdir segments
+  727  /home/pi/workspace/hls_recorder/video.sh 
+  728  sudo /home/pi/workspace/hls_recorder/video.sh 
+  729  ls
+  730  ls segments/
+  731  cd ..
+  732  ls
+  733  sudo mv live/ html
+  734  ls
+  735  cd html/
+  736  ls
+  737  sudo vim index.html 
+  738  vim /home/pi/workspace/hls_recorder/video.sh 
+  739  ls
+  740  sudo /home/pi/workspace/hls_recorder/video.sh 
+  741  ls
+  742  sudo chmod 755 live/
+  743  ls
+  744  ls live/
+  745  sudo chmod 755 live/segments/
+  746  ls
+  747  sudo cp index.html live/
+  748  sudo vim live/index.html 
+  749  sudo /home/pi/workspace/hls_recorder/video.sh 
+  750  ls
+  751  cd live/
+  752  ls
+  753  cd segments/
+  754  ls
+  755  vim ~/workspace/hls_recorder/video.sh 
+  756  avconvi
+  757  cd
+  758  systemctl start pyrecorder
+  759  sudo systemctl start pyrecorder
+  760  sudo systemctl restart pyrecorder
+  761  sudo systemctl stop pyrecorder
+  762  ls
+  763  vim workspace/recorder/pyrecorder.py 
+  764  sudo systemctl start pyrecorder
+  765  sudo systemctl stop pyrecorder
+  766  ls
+  767  gs
+  768  cd workspace/
+  769  ls
+  770  cd recorder/
+  771  python3 pyrecorder.py 
+  772  vim pyrecorder.py 
+  773  python3 pyrecorder.py 
+  774  vim pyrecorder.py 
+  775  python3 pyrecorder.py 
+  776  vim pyrecorder.py 
+  777  python3 pyrecorder.py 
+  778  systemctl status pyrecorder
+  779  systemctl stop pyrecorder
+  780  sudo systemctl stop pyrecorder
+  781  sudo systemctl stjj pyrecorder
+  782  sudo reboot
+  783  systemctl stop pyrecorder
+  784  sudo systemctl stop pyrecorder
+  785  sudo systemctl status pyrecorder
+  786  raspistill -o 
+  787  ls
+  788  systemctl stop pyrecorder
+  789  sudosystemctl stop pyrecorder
+  790  sudo systemctl stop pyrecorder
+  791  stty -F /dev/ttyAMA0 raw 9600 cs8 clocal -cstop
+  792  stty -F /dev/ttyAMA0 raw 9600 cs8 clocal -cstopb
+  793  cat /dev/ttyAMA0
+  794  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
+  795  gpsdmon
+  796  gpsmon
+  797  cpgs -s
+  798  cgps -s
+  799  clear
+  800  cd workspace/
+  801  ls
+  802  cd recorder/
+  803  ls
+  804  vim pyrecorder.py 
+  805  sudo systemctl status pyrecorder
+  806  sudo vim /lib/systemd/system/pyrecorder.service 
+  807  ls
+  808  vim pyrecorder.sh
+  809  chmod +x pyrecorder.sh 
+  810  vim pyrecorder.sh 
+  811  pwd
+  812  vim pyrecorder.sh 
+  813  vim pyrecorder.py 
+  814  ./pyrecorder.sh 
+  815  clear
+  816  vim pyrecorder.py 
+  817  sudo gpsd
+  818  cgps -s
+  819  vim pyrecorder.sh 
+  820  sudo ./pyrecorder.sh 
+  821  fg
+  822  sudo vim /lib/systemd/system/pyrecorder.service 
+  823  sudo systemctl daemon-reload
+  824  sudo systemctl enable pyrecorder.service
+  825  sudo systemctl start pyrecorder.service 
+  826  sudo systemctl status pyrecorder.service 
+  827  vim pyrecorder.sh 
+  828  sudo systemctl restart pyrecorder.service 
+  829  sudo systemctl status pyrecorder.service 
+  830  sudo journalctl -xe
+  831  sudo vim /lib/systemd/system/pyrecorder.service 
+  832  sudo systemctl daemon-reload
+  833  sudo systemctl enable pyrecorder.service
+  834  sudo systemctl start pyrecorder
+  835  sudo systemctl status pyrecorder.service 
+  836  sudo reboot now
+  837  sudo systemctl restart pyrecorder
+  838  sudo systemctl status pyrecorder
+  839  sudo vim /lib/systemd/system/pyrecorder.service 
+  840  ls
+  841  cd workspace/
+  842  ls
+  843  cd recorder/
+  844  ls
+  845  cat pyrecorder.py 
+  846  vim pyrecorder.py 
+  847  sudo systemctl restart pyrecorder
+  848  sudo systemctl status pyrecorder
+  849  sudo journalctl -xe
+  850  sudo systemctl stop pyrecorder
+  851  vim pyrecorder.py 
+  852  sudo systemctl restart pyrecorder
+  853  sudo systemctl stop pyrecorder
+  854  fg
+  855  sudo systemctl status pyrecorder
+  856  sudo journalctl -xe
+  857  clear
+  858  sudo systemctl status pyrecorder
+  859  clear
+  860  fg
+  861  sudo systemctl stop pyrecorder
+  862  sudo reboot now
+  863  ls
+  864  history|grep ffmpeg
+  865  history|less
+  866  uuidgen
+  867  uuidgen() q
+  868  ls
+  869  history|grep uuid
+  870  python -c 'import uuid; print(str(uuid.uuid1()))' >! uuid.txt
+  871  cat uuid.txt
+  872  ls
+  873  cat !
+  874  rm -f !
+  875  cd workspace/pyrecorder
+  876  ls
+  877  cd workspace
+  878  cd recorder/
+  879  ls
+  880  mkdir raspivid
+  881  cd raspivid
+  882  vim record.sh
+  883  fg
+  884  chmod +x record.sh 
+  885  ./record.sh 
+  886  fg
+  887  vim record.sh 
+  888  ./record.sh 
+  889  fg
+  890  vim record.sh 
+  891  fg
+  892  ./record.sh 
+  893  fg
+  894  vim record.sh 
+  895  ./record.sh 
+  896  fg
+  897  ./record.sh 
+  898  fg
+  899  ./record.sh 
+  900  fg
+  901  ./record.sh 
+  902  fg
+  903  ./record.sh 
+  904  fg
+  905  ls
+  906  rm -f UUID
+  907  fg
+  908  ./record.sh 
+  909  fg
+  910  ./record.sh 
+  911  fg
+  912  ./record.sh 
+  913  fg
+  914  ./record.sh 
+  915  fg
+  916  ./record.sh 
+  917  vim record.sh 
+  918  ./record.sh 
+  919  fg
+  920  vim record.sh 
+  921  ./record.sh 
+  922  sudo systemctl stop pyrecorder
+  923  ./record.sh 
+  924  fg
+  925  ./record.sh 
+  926  fg
+  927  ./record.sh 
+  928  fg
+  929  ./record.sh 
+  930  fg
+  931  ./record.sh 
+  932  fg
+  933  ./record.sh 
+  934  fg
+  935  ./record.sh 
+  936  fg
+  937  ./record.sh 
+  938  fg
+  939  ./record.sh 
+  940  fg
+  941  ./record.sh 
+  942  fg
+  943  exit
+  944  sudo apt-get update
+  945  history 
+  946  cd workspace/
+  947  ls
+  948  cd recorder/
+  949  ls
+  950  cat pyrecorder.py 
+  951  cat pyrecorder.sh
+  952  ls
+  953  cd raspivid/
+  954  ls
+  955  cat record.sh 
+  956  vim record.sh 
+  957  sudo apt-get update
+  958  ifconfig 
+  959  sudo reboot
+  960  raspi-config
+  961  sudo raspi-config 
+  962  ls
+  963  cd workspace/recorder/
+  964  ls
+  965  cat raspivid/record.sh 
+  966  vi raspivid/record.sh 
+  967  sudo reboot
+  968  vi raspivid/record.sh 
+  969  ls
+  970  ls workspace/
+  971  vi workspace/recorder/raspivid/record.sh 
+  972  history | grep service
+  973  sudo systemctl status pyrecorder.service 
+  974  vi workspace/recorder/raspivid/record.sh 
+  975  sudo systemctl status pyrecorder.service 
+  976  vi workspace/recorder/raspivid/record.sh 
+  977  sudo systemctl status pyrecorder.service 
+  978  vi workspace/recorder/raspivid/record.sh 
+  979  sudo systemctl status pyrecorder.service 
+  980  sudo systemctl restart pyrecorder.service 
+  981  vi workspace/recorder/raspivid/record.sh 
+  982  sudo systemctl restart pyrecorder.service 
+  983  vi workspace/recorder/raspivid/record.sh 
+  984  vi workspace/recorder/raspivid/record.sh
+  985  sudo systemctl restart pyrecorder.service 
+  986  vi raspivid/record.sh 
+  987  vi workspace/recorder/raspivid/record.sh 
+  988  history | grep service
+  989  sudo systemctl status pyrecorder.service 
+  990  sudo systemctl restart pyrecorder.service 
+  991  vi workspace/recorder/raspivid/record.sh 
+  992  sudo systemctl restart pyrecorder.service 
+  993  vi workspace/recorder/raspivid/record.sh 
+  994  sudo shutdown -h now
+  995  raspistill -o
+  996  raspivid -o
+  997  raspivid -o -t 5000000
+  998  raspivid -o -t 50000
+  999  raspivid --help
+ 1000  raspivid -t 5m -o 
+ 1001  raspivid -t 5m -p
+ 1002  raspivid --help
+ 1003  raspivid -o -t 5000
+ 1004  raspivid -o -t 15,000
+ 1005  raspivid -o -t 5000s
+ 1006  raspivid -t 5000s 
+ 1007  raspivid -t 500000s 
+ 1008  stopx
+ 1009  sudo killall gdm
+ 1010  raspivid -t 5000s 
+ 1011  raspivid -t 50000s 
+ 1012  exit
+ 1013  sudo systemctl stop pyrecorder.service 
+ 1014  startx
+ 1015  sudo systemctl start pyrecorder.service 
+ 1016  sudo shutdown -h now
+ 1017  sudo systemctl stop pyrecorder.service 
+ 1018  raspivid -t 50000s 
+ 1019  sudo systemctl start pyrecorder.service 
+ 1020  sudo shutdown -h now
+ 1021  raspivid -t 50000s 
+ 1022  raspivid --help
+ 1023  raspi-config 
+ 1024  sudo raspi-config 
+ 1025  clear
+ 1026  reboot
+ 1027  raspivid -t 50000s 
+ 1028  raspivid -t 50000s -w 640 -h 480
+ 1029  reboot
+ 1030  raspivid -t 50000s -w 640 -h 480
+ 1031  raspivid -t 50000s -w 800 -h 600
+ 1032  raspivid -t 50000s
+ 1033  shutdown -h now
+ 1034  shutdown -h now
+ 1035  raspivid -t 50000s
+ 1036  sudo systemctl stop pyrecorder.service 
+ 1037  vi workspace/recorder/raspivid/record.sh 
+ 1038  sudo systemctl start pyrecorder.service 
+ 1039  raspivid -t 50000s
+ 1040  sudo systemctl stop pyrecorder.service 
+ 1041  vi workspace/recorder/raspivid/record.sh 
+ 1042  clear
+ 1043  sudo systemctl start pyrecorder.service 
+ 1044  sudo systemctl stop pyrecorder.service 
+ 1045  vi workspace/recorder/raspivid/record.sh 
+ 1046  sudo systemctl start pyrecorder.service 
+ 1047  sudo systemctl stop pyrecorder.service 
+ 1048  vi workspace/recorder/raspivid/record.sh 
+ 1049  clear
+ 1050  sudo systemctl start pyrecorder.service 
+ 1051  raspivid -t 50000s
+ 1052  vi workspace/recorder/raspivid/record.sh 
+ 1053  shutdown -h now
+ 1054  gpsmon
+ 1055  shutdown -h now
+ 1056  sudo apt-get update
+ 1057  exit
+ 1058  sudo apt-get update
+ 1059  logout
+ 1060  kill apt-get
+ 1061  ps
+ 1062  ps -A
+ 1063  sudo kill 1032
+ 1064  ps -A
+ 1065  sudo reboot
+ 1066  sudo apt-get update
+ 1067  ifconfig
+ 1068  sudo apt-get update
+ 1069  ps -A
+ 1070  kill all apt-get
+ 1071  kill apt-gety
+ 1072  kill 23483
+ 1073  sudo kill 23483
+ 1074  sudo apt-get update
+ 1075  sudo reboot
+ 1076  sudo systemctl stop pyrecorder.service 
+ 1077  sudo systemctl start pyrecorder.service 
+ 1078  sudo shutdown -h now
+ 1079  ls
+ 1080  exit
+ 1081  ls
+ 1082  ls -lta
+ 1083  cd Desktop
+ 1084  ls
+ 1085  cd ../Downloads
+ 1086  ls
+ 1087  cd ../Documents
+ 1088  ls
+ 1089  vi workspace/recorder/raspivid/record.sh 
+ 1090  ls
+ 1091  cd workspace/
+ 1092  ls
+ 1093  cd _re
+ 1094  ls -lta
+ 1095  cd /
+ 1096  ls
+ 1097  cd ~
+ 1098  ls
+ 1099  cd scripts/
+ 1100  ls
+ 1101  cd ../Videos/
+ 1102  ls
+ 1103  cd ../Public/
+ 1104  ls
+ 1105  cd ../Documents/
+ 1106  ls
+ 1107  cat motion.conf 
+ 1108  cat motion.conf  : more
+ 1109  cat motion.conf | more
+ 1110  ls 
+ 1111  cd ..
+ 1112  ls
+ 1113  cd Desktop/
+ 1114  ls
+ 1115  cd ..
+ 1116  ls
+ 1117  cd Templates/
+ 1118  ls
+ 1119  cd ..
+ 1120  ls
+ 1121  cd ..
+ 1122  ls
+ 1123  cd run/
+ 1124  ls
+ 1125  cd ~
+ 1126  cd scripts/
+ 1127  ls
+ 1128  cd ../oldconffiles/
+ 1129  ls
+ 1130  cd ../workspace/
+ 1131  ls
+ 1132  cd recorder/
+ 1133  ls'
+ 1134  ls
+ 1135  cat pyrecorder.sh 
+ 1136  cat pyrecorder.py 
+ 1137  cat pyrecorder.py  | more
+ 1138  ls
+ 1139  cd raspivid/
+ 1140  ls
+ 1141  cat record.sh 
+ 1142  startx
+ 1143  ls
+ 1144  vi workspace/recorder/raspivid/record.sh 
+ 1145  clear
+ 1146  history
+ 1147  startx
+ 1148  gpsmon
+ 1149  sudo shutdown -h now
+ 1150  gpsmon
+ 1151  gpsd 
+ 1152  sudo gpsd /dev/ttyAMAO -F /var/run/gpsd.sock
+ 1153  gpdsmon
+ 1154  gpsmon
+ 1155  sudo gpsd /dev/ttyAMAO -F /var/run/gpsd.sock
+ 1156  gpsmon
+ 1157  sudo reboot
+ 1158  startx
+ 1159  ping yahoo.com
+ 1160  ping 131.94.133.214
+ 1161  ps -A
+ 1162  gpsmon
+ 1163  sudo gpsd /dev/ttyAMAO -F /var/run/gpsd.sock | gpsmon
+ 1164  history | grep raspivid
+ 1165  raspivid -o -t 50000
+ 1166  raspivid -o 
+ 1167  sudo shutdown -h now
+ 1168  sudo su
+ 1169  startx
+ 1170  ifconfig 
+ 1171  sudo su
+ 1172  ping 131.94.133.214
+ 1173  ifconfig wlan0
+ 1174  ping cs.fiu.edu
+ 1175  startx
+ 1176  ifconfig wlan0
+ 1177  reboot
+ 1178  ping cake.fiu.edu
+ 1179  ping yahoo.com
+ 1180  ping 192.168.0.1
+ 1181  ifconfig
+ 1182  ping 8.8.8.8
+ 1183  ip route 
+ 1184  sudo -s
+ 1185  ifconfig wlan0
+ 1186  ls
+ 1187  cd scripts/
+ 1188  ls
+ 1189  cd ../
+ 1190  gpsmon
+ 1191  gpsd
+ 1192  sudo gpsd /dev/ttyAMAO -F /var/run/gpsd.sock
+ 1193  gpsmon
+ 1194  history | grep gps
+ 1195  sudop gpsmon
+ 1196  sudo gpsmon
+ 1197  history | grep raspi
+ 1198  rsapivid -o -t 50000
+ 1199  raspivid -o -t 5000
+ 1200  raspivid -o -t 5000s
+ 1201  raspivid -o ]
+ 1202  ifconfig
+ 1203  ssh mullerk@cthulhu.cs.fiu.edu
+ 1204  startx
+ 1205  ip route
+ 1206  ps xauw | grep -i net
+ 1207  cd /etc/network/
+ 1208  ls
+ 1209  vi interfaces
+ 1210  Z
+ 1211  cat /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1212  sudo 
+ 1213  sudo -s
+ 1214  ifconfig 
+ 1215  ip route
+ 1216  cat /etc/resolv.conf 
+ 1217  man resolvconf
+ 1218  man resolvconf.conf
+ 1219  sudo -s
+ 1220  ping google.com
+ 1221  ls 
+ 1222  gpsmon
+ 1223  history | grep gps
+ 1224  history | grep gps | more
+ 1225  sudo gpsd /de/ttyAMA0 -F /var/run/gpsd.sock 
+ 1226  cgps -s
+ 1227  sudo systemctl stop gpsd.socket
+ 1228  sudo systemctl status gpsd.socket
+ 1229  sudo systemctl enable gpsd.socket
+ 1230  sudo systemctl start gpsd.socket
+ 1231  sudo systemctl status gpsd.socket
+ 1232  gpsmon
+ 1233  history | grep gps | more
+ 1234  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock 
+ 1235  gpsmon
+ 1236  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock 
+ 1237  history | grep gps | more
+ 1238  sudo cgps -s
+ 1239  sudo raspi-config
+ 1240  sudo shutdown -h now
+ 1241  sudo su
+ 1242  exit
+ 1243  ping google.com
+ 1244  stty -F /dev/serial0 raw 9600 cs8 cloacl -cstopb
+ 1245  cat /dev/serial0
+ 1246  sudo apt-get update
+ 1247  ifconfig 
+ 1248  sudo apt-get update
+ 1249  sudo apt-get upgrade
+ 1250  sudo shutdown -h now
+ 1251  ps -A
+ 1252  ifconfig 
+ 1253  ls
+ 1254  cd workspace/
+ 1255  ls
+ 1256  cd recorder/
+ 1257  ls
+ 1258  ./pyrecorder.sh 
+ 1259  ./pyrecorder.sh
+ 1260  cat pyrecorder.sh 
+ 1261  cat pyrecorder.py 
+ 1262  cat pyrecorder.py  | more
+ 1263  gpsmon
+ 1264  stty -F /dev/serial0 raw 9600 cs8 clocal -cstopb
+ 1265  cat /dev/serial0
+ 1266  reboot
+ 1267  history
+ 1268  history | more
+ 1269  ifconfig -a
+ 1270  sudo service status p
+ 1271  history | more
+ 1272  gpsmon
+ 1273  cd workspace/
+ 1274  ls
+ 1275  cd recorder/
+ 1276  ls
+ 1277  ./pyrecorder.
+ 1278  ./pyrecorder.sh 
+ 1279  sudo raspi-config 
+ 1280  sudo reboot
+ 1281  stty -F /dev/serial0 raw 9600 cs8 clocal -cstop
+ 1282  gpsmon
+ 1283  history | grep AMA0
+ 1284  sudo systemctl start serial-getty@ttyAMA0.service
+ 1285  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock 
+ 1286  sudo gpsmon
+ 1287  sudo gpsd
+ 1288  cat /dev/serial0
+ 1289  sudo cat /dev/serial0
+ 1290  sudo reboot
+ 1291  raspivid -o 
+ 1292  sudo cat /dev/serial0
+ 1293  gpsd
+ 1294  sudo gpsd
+ 1295  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock 
+ 1296  gpsmon
+ 1297  cgps -s
+ 1298  sudo gpsd /dev/ttyS0 -F /var/run/gpsd.sock 
+ 1299  gpsmon
+ 1300  cgps -s
+ 1301  sudo gpsd /dev/ttyS0 -F /var/run/gpsd.sock 
+ 1302  cgps -s
+ 1303  sudo nano /etc/default/gpsd
+ 1304  sudo reboot
+ 1305  gpsmon
+ 1306  sudo gpsd /dev/ttyS0 -F /var/run/gpsd.sock 
+ 1307  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock 
+ 1308  sudo cgps -s
+ 1309  sudo gpsd /dev/ttyS0 -F /var/run/gpsd.sock 
+ 1310  sudo cgps -s
+ 1311  gpsmon
+ 1312  cat /dev/serial0
+ 1313  cat /dev/ttyS0
+ 1314  cat /dev/ttyAMA0
+ 1315  sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock 
+ 1316  cat /dev/ttyAMA0
+ 1317  gpsmon
+ 1318  history >> history.txt 

@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  rtmp:
+    build: .
+    ports:
+      - "1935:1935"
+      - "80:80"

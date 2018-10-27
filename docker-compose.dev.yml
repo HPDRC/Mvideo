@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+
+  api:
+    volumes:
+      - ./mvideo-api:/usr/src/app
+
+  docs:
+    volumes:
+      - ./mvideo-docs:/usr/src/app

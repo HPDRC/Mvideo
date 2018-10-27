@@ -1,0 +1,65 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/pinpadTitle"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/pinTitleHeight"
+        android:gravity="center"
+        android:background="@drawable/pintitle_bg"
+        android:text="@string/g_undefined"
+        android:textSize="@dimen/textSizeM"
+        android:layout_margin="@dimen/spaceSS"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/pinTable"
+        app:layout_constraintVertical_chainStyle="packed"/>
+    <LinearLayout
+        android:id="@+id/pinBoxes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingLeft="@dimen/spaceS"
+        android:paddingRight="@dimen/spaceS"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="@+id/pinpadTitle"
+        app:layout_constraintBottom_toBottomOf="@+id/pinpadTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/pinpadTitle"
+        app:layout_constraintRight_toRightOf="@+id/pinpadTitle">
+        <TextView style="@style/PinBox" android:id="@+id/pinbox0"/>
+        <TextView style="@style/PinBox" android:id="@+id/pinbox1"/>
+        <TextView style="@style/PinBox" android:id="@+id/pinbox2"/>
+        <TextView style="@style/PinBox" android:id="@+id/pinbox3"/>
+    </LinearLayout>
+    <TableLayout
+        android:id="@+id/pinTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/pinpadTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <TableRow style="@style/BasicWrapContent">
+            <Button android:text="1" style="@style/PinButton" android:id="@+id/pinbtn1" />
+            <Button android:text="2" style="@style/PinButton" android:id="@+id/pinbtn2" />
+            <Button android:text="3" style="@style/PinButton" android:id="@+id/pinbtn3" />
+        </TableRow>
+        <TableRow style="@style/BasicWrapContent">
+            <Button android:text="4" style="@style/PinButton" android:id="@+id/pinbtn4" />
+            <Button android:text="5" style="@style/PinButton" android:id="@+id/pinbtn5" />
+            <Button android:text="6" style="@style/PinButton" android:id="@+id/pinbtn6" />
+        </TableRow>
+        <TableRow style="@style/BasicWrapContent">
+            <Button android:text="7" style="@style/PinButton" android:id="@+id/pinbtn7" />
+            <Button android:text="8" style="@style/PinButton" android:id="@+id/pinbtn8" />
+            <Button android:text="9" style="@style/PinButton" android:id="@+id/pinbtn9" />
+        </TableRow>
+        <TableRow style="@style/BasicWrapContent">
+            <Button android:text="0" style="@style/PinButton" android:id="@+id/pinbtn0" />
+            <Button android:text="@string/g_delete" style="@style/PinButton" android:id="@+id/pinbtnback" android:layout_span="2" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

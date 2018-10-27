@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="BasicWrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BasicMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TextViewPrimary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textSizeML</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:lineSpacingExtra">16dp</item>
+    </style>
+
+    <style name="TextViewBody">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textSizeL</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:lineSpacingExtra">16dp</item>
+    </style>
+
+    <style name="TextViewTitle" parent="TextViewBody">
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">10dp</item>
+    </style>
+
+    <style name="ButtonMain">
+        <item name="android:background">@drawable/button_main</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSizeML</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+    </style>
+
+    <style name="PinButton">
+        <item name="android:layout_width">@dimen/pinButtonX</item>
+        <item name="android:layout_height">@dimen/pinButtonY</item>
+        <item name="android:background">@drawable/key_bg</item>
+        <item name="android:layout_margin">@dimen/spaceSS</item>
+        <item name="android:textSize">@dimen/textSizeML</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="PinBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/textSizeML</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="PinPadWrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

@@ -1,0 +1,44 @@
+{
+    "restURI": "http://alaska.cs.fiu.edu:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/live/instances",
+    "instanceList": [
+        {
+            "restURI": "/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/live/instances/_definst_",
+            "incomingStreams": [
+
+            ],
+            "outgoingStreams": [
+
+            ],
+            "recorders": [
+                {
+                    "restURI": "/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/live/instances/_definst_/streamrecorders/Erick",
+                    "recorderName": "Erick",
+                    "instanceName": "_definst_",
+                    "recorderState": "Waiting for stream",
+                    "defaultRecorder": false,
+                    "segmentationType": "SegmentByDuration",
+                    "outputPath": "E:\\StreamRecordings",
+                    "baseFile": "Erick.mp4",
+                    "fileFormat": "MP4",
+                    "fileVersionDelegateName": "com.wowza.wms.livestreamrecord.manager.StreamRecorderFileVersionDelegate",
+                    "fileTemplate": "${BaseFileName}_${RecordingStartTime}_${SegmentNumber}",
+                    "segmentDuration": 300000,
+                    "segmentSize": 10485760,
+                    "segmentSchedule": "0 * * * * *",
+                    "recordData": false,
+                    "startOnKeyFrame": true,
+                    "option": "Version existing file",
+                    "moveFirstVideoFrameToZero": true,
+                    "currentSize": 263886,
+                    "currentDuration": 8767,
+                    "currentFile": "E:\\StreamRecordings\\Erick_2016-08-15-09.26.48.786-EDT_0.mp4",
+                    "recordingStartTime": ""
+                }
+            ],
+            "streamGroups": [
+
+            ],
+            "name": "_definst_"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0275d8</color>
+    <color name="primaryAccent">#024b89</color>
+    <color name="success">#358135</color>
+    <color name="info">#5bc0de</color>
+    <color name="warning">#f0ad4e</color>
+    <color name="danger">#d9534f</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="darkdarkgray">#404040</color>
+    <color name="darkgray">#808080</color>
+    <color name="gray">#a9a9a9</color>
+    <color name="lightGray">#d3d3d3</color>
+    <color name="lightlightGray">#ededed</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="gold">#C89800</color>
+    <color name="blue">#0070C0</color>
+
+    <color name="keyBackground">@color/lightlightGray</color>
+    <color name="keyBackgroundPressed">@color/darkgray</color>
+    <color name="keyboardBackground">@color/darkdarkgray</color>
+
+    <color name="btnPrimaryStart">#018ae2</color>
+    <color name="btnPrimaryEnd">#017bc9</color>
+    <color name="btnPrimaryBorder">#0c5583</color>
+
+    <color name="cardPrimaryFill">@color/lightlightGray</color>
+    <color name="dialogOverlayBackground">#AF000000</color>
+</resources>

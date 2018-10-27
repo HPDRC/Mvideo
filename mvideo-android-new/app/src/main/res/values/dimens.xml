@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spaceL">36dp</dimen>
+    <dimen name="spaceM">24dp</dimen>
+    <dimen name="spaceS">16dp</dimen>
+    <dimen name="spaceSS">5dp</dimen>
+
+    <dimen name="textSizeXL">48dp</dimen>
+    <dimen name="textSizeL">36dp</dimen>
+    <dimen name="textSizeML">28dp</dimen>
+    <dimen name="textSizeM">24dp</dimen>
+    <dimen name="textSizeS">18dp</dimen>
+    <dimen name="textSizeSS">14dp</dimen>
+
+    <dimen name="pinTitleHeight">70dp</dimen>
+    <dimen name="pinButtonX">100dp</dimen>
+    <dimen name="pinButtonY">70dp</dimen>
+    <dimen name="pinButtonLargeX">110dp</dimen>
+    <dimen name="pinButtonLargeY">80dp</dimen>
+
+    <dimen name="cornerM">6dp</dimen>
+</resources>

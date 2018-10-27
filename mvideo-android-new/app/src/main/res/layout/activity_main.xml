@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itpa.mvideo.MainActivity"
+    style="@style/BasicMatchParent">
+    <android.support.constraint.ConstraintLayout style="@style/BasicMatchParent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutManage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="@dimen/spaceL"
+            android:layout_marginEnd="@dimen/spaceL"
+            android:layout_marginTop="@dimen/spaceM">
+            <TextView style="@style/TextViewPrimary"
+                android:id="@+id/tvStatus"
+                android:textSize="@dimen/textSizeS"
+                android:lineSpacingExtra="@dimen/spaceSS"
+                android:text="@string/g_undefined"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+            <Button style="@style/ButtonMain"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="@string/main_manage_btn"
+                android:onClick="onClickManage"/>
+        </android.support.constraint.ConstraintLayout>
+        <TextView style="@style/TextViewTitle"
+            android:id="@+id/tvTitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tvBody"
+            app:layout_constraintVertical_chainStyle="packed"
+            android:text="@string/g_undefined"/>
+        <TextView
+            android:id="@+id/tvBody"
+            style="@style/TextViewBody"
+            android:text="@string/g_undefined"
+            android:layout_marginTop="@dimen/spaceL"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+        <LinearLayout
+            android:id="@+id/vgVideo"
+            android:orientation="vertical"
+            android:layout_width="240dp"
+            android:layout_height="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="@dimen/spaceL"
+            android:layout_marginBottom="@dimen/spaceL">
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout style="@style/BasicMatchParent"
+        android:background="@color/white"
+        android:id="@+id/vgManage"
+        android:visibility="gone">
+        <Button style="@style/ButtonMain"
+            android:layout_marginEnd="@dimen/spaceL"
+            android:layout_marginTop="@dimen/spaceL"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="@string/g_exit"
+            android:onClick="onClickExit"/>
+        <RelativeLayout
+            android:id="@+id/vgPinpad"
+            style="@style/PinPadWrapper"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <include layout="@layout/control_pinpad"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/BasicWrapContent"
+            android:id="@+id/vgBusList"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView style="@style/TextViewPrimary"
+                android:text="@string/main_restart_after_change"/>
+            <RadioGroup style="@style/BasicWrapContent"
+                android:id="@+id/rgBusList"
+                android:orientation="vertical">
+            </RadioGroup>
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
